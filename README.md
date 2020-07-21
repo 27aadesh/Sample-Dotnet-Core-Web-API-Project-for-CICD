@@ -31,24 +31,24 @@ dotnet restore
 '''
 
 2. Build the code using dotnet publish
-'''
+```
 dotnet build -c release -o target/
-'''
+```
 
 3. publish the code using dotnet publish
-'''
+```
 dotnet publish -c release -o target/
-'''
+```
 
 4. Go to 'target' directory
-'''
+```
 cd target
-'''
+```
 
 5. Run the entrypoint dll
-'''
+```
 dotnet samplewebapi.dll
-'''
+```
 
 ## Usage <a name = "usage"></a>
 
