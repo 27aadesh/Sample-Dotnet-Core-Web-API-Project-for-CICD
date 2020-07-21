@@ -10,7 +10,7 @@
 
 ## About <a name = "about"></a>
 
-Write about 1-2 paragraphs describing the purpose of your project.
+This is a sample dotnet core web api project code which can be used to create CICD using Jenkins, Azure Pipelines, and other CI tools for learning purposes. 
 
 ## Getting Started <a name = "getting_started"></a>
 
