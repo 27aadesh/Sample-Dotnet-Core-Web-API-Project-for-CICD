@@ -1,4 +1,4 @@
-<img src=""></img>
+<img src="https://github.com/27aadesh/Sample-Dotnet-Core-Web-API-Project-for-CICD/blob/master/screenshots/netcore.png"></img>
 # Sample Dotnet Core Web API Project for CICD
 
 ## Table of Contents
