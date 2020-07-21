@@ -14,34 +14,42 @@ Write about 1-2 paragraphs describing the purpose of your project.
 
 ## Getting Started <a name = "getting_started"></a>
 
-These instructions will get you a copy of the project up and running on your local machine for development and testing purposes. See [deployment](#deployment) for notes on how to deploy the project on a live system.
+These instructions will get you a copy of the project up and running on your local machine for development and testing purposes. 
 
 ### Prerequisites
 
-What things you need to install the software and how to install them.
-
-```
-Give examples
-```
+Dotnet SDK is Required to run the project
+Link: https://dotnet.microsoft.com/download/dotnet-core/3.1
 
 ### Installing
 
-A step by step series of examples that tell you how to get a development env running.
+The below steps need to be performed to run this application:
 
-Say what the step will be
+1. Restore the Packages using the below command
+'''
+dotnet restore
+'''
 
-```
-Give the example
-```
+2. Build the code using dotnet publish
+'''
+dotnet build -c release -o target/
+'''
 
-And repeat
+3. publish the code using dotnet publish
+'''
+dotnet publish -c release -o target/
+'''
 
-```
-until finished
-```
+4. Go to 'target' directory
+'''
+cd target
+'''
 
-End with an example of getting some data out of the system or using it for a little demo.
+5. Run the entrypoint dll
+'''
+dotnet samplewebapi.dll
+'''
 
 ## Usage <a name = "usage"></a>
 
-Add notes about how to use the system.
+This project is just used for learning CICD. 
