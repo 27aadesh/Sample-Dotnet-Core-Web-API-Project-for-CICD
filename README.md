@@ -1,3 +1,4 @@
+<img src=""></img>
 # Sample Dotnet Core Web API Project for CICD
 
 ## Table of Contents
